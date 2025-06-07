@@ -4,9 +4,9 @@ import subprocess
 from flask_cors import CORS
 
 # 配置路径
-UPLOAD_FOLDER = '/home/dell/桌面/drh/JiShe/uploads'
-RESULT_FOLDER = '/home/dell/桌面/drh/JiShe/results'
-PROJECT_PATH = '/home/dell/桌面/drh/JiShe'
+UPLOAD_FOLDER = './uploads'
+RESULT_FOLDER = './results'
+PROJECT_PATH = '../'
 
 app = Flask(__name__)
 CORS(app)
